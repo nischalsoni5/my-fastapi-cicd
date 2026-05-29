@@ -87,4 +87,3 @@ jobs:
               -p 8000:8000 \
               --name app \
               ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REPO }}:latest
-```
